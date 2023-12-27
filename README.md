@@ -25,6 +25,7 @@ concommand.Add("unittest", function(args, argsStr)
     test()
 end, "Trigger unit-tests!", {"unit-test", "test", "unit"})
 ```
+4. have fun <3
   
   
 ### API:
