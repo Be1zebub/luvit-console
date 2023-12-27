@@ -22,7 +22,7 @@ concommand.Add("unittest", function(args, argsStr)
     if test == nil then print("test not found!") return end
 
     test()
-end)
+end, "Trigger unit-tests!", {"unit-test", "test", "unit"})
 ```
  
  
